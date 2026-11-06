@@ -1,0 +1,243 @@
+{
+  "tool": "suite-builder",
+  "ledgerVersion": 1,
+  "entities": [
+    {
+      "id": "type:/",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "HomePage",
+      "patterns": [
+        "/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/*",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "PostNavigationPage",
+      "patterns": [
+        "/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/services/*",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "ServicePage",
+      "patterns": [
+        "/services/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/about-us/",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "AboutUsListPage",
+      "patterns": [
+        "/about-us/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/latest-news/",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "LatestNewsPage",
+      "patterns": [
+        "/latest-news/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/contracting/*",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "ContractingPage",
+      "patterns": [
+        "/contracting/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/*/*/page/*",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "PageNavigationPage",
+      "patterns": [
+        "/*/*/page/*",
+        "/*/*",
+        "/author/peerlesstechmarketing/page/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/services/",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "ServicesPage",
+      "patterns": [
+        "/services/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/peerless-partnership-alliance/",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "PeerlessPartnershipAlliancePage",
+      "patterns": [
+        "/peerless-partnership-alliance/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/contracting/",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "ContractingListPage",
+      "patterns": [
+        "/contracting/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/products/",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "ProductsPage",
+      "patterns": [
+        "/products/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/peerless-innovation-center/",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "PeerlessInnovationCenterPage",
+      "patterns": [
+        "/peerless-innovation-center/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/about-us/*",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "LatestNews2Page",
+      "patterns": [
+        "/about-us/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/category/awards-recognition/",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "CategoryAwardsRecognitionPage",
+      "patterns": [
+        "/category/awards-recognition/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/about-us/*/*",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "AboutUsPage",
+      "patterns": [
+        "/about-us/*/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/author/mwallace/page/*",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "AuthorMwallacePagePage",
+      "patterns": [
+        "/author/mwallace/page/*",
+        "/author/*"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/careers/",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "CareersPage",
+      "patterns": [
+        "/careers/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    },
+    {
+      "id": "type:/contact-us/",
+      "kind": "page-type",
+      "introducedAt": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7",
+      "cls": "ContactUsPage",
+      "patterns": [
+        "/contact-us/"
+      ],
+      "lifecycle": {
+        "state": "present",
+        "lastSeenIn": "98a977b99a4a859fdff68962baa1069dab5b5346f7b784aac80f00e22ac487b7"
+      }
+    }
+  ]
+}

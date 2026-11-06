@@ -1,0 +1,2241 @@
+{
+  "tool": "suite-builder",
+  "kind": "templates",
+  "version": 2,
+  "startUrl": "https://epeerless.com/",
+  "origin": "https://epeerless.com",
+  "pagesRead": 64,
+  "menu": [
+    {
+      "to": "https://epeerless.com/about-us/",
+      "href": "https://epeerless.com/about-us/",
+      "text": "Who We Are Expand",
+      "region": "header",
+      "seenOn": "https://epeerless.com/",
+      "template": "about-us-list"
+    },
+    {
+      "to": "https://epeerless.com/about-us/history/",
+      "href": "https://epeerless.com/about-us/history/",
+      "text": "History",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/about-us/",
+        "text": "Who We AreExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": "latest-news2"
+    },
+    {
+      "to": "https://epeerless.com/about-us/leadership/",
+      "href": "https://epeerless.com/about-us/leadership/",
+      "text": "Leadership",
+      "region": "footer",
+      "seenOn": "https://epeerless.com/",
+      "template": "latest-news2"
+    },
+    {
+      "to": "https://epeerless.com/latest-news/",
+      "href": "https://epeerless.com/latest-news/",
+      "text": "Latest News",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/about-us/",
+        "text": "Who We AreExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": "latest-news"
+    },
+    {
+      "to": "https://epeerless.com/about-us/environmental-sustainability/",
+      "href": "https://epeerless.com/about-us/environmental-sustainability/",
+      "text": "Environmental Sustainability",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/about-us/",
+        "text": "Who We AreExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": "latest-news2"
+    },
+    {
+      "to": "https://epeerless.com/services/",
+      "href": "https://epeerless.com/services/",
+      "text": "What We Do Expand",
+      "region": "header",
+      "seenOn": "https://epeerless.com/",
+      "template": "services"
+    },
+    {
+      "to": "https://epeerless.com/services/cybersecurity/",
+      "href": "https://epeerless.com/services/cybersecurity/",
+      "text": "Cybersecurity",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/services/",
+        "text": "What We DoExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": "service"
+    },
+    {
+      "to": "https://epeerless.com/services/energy-conservation-management/",
+      "href": "https://epeerless.com/services/energy-conservation-management/",
+      "text": "Energy Conservation & Management",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/services/",
+        "text": "What We DoExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": "service"
+    },
+    {
+      "to": "https://epeerless.com/services/information-technology/",
+      "href": "https://epeerless.com/services/information-technology/",
+      "text": "Information Technology",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/services/",
+        "text": "What We DoExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": "service"
+    },
+    {
+      "to": "https://epeerless.com/services/intelligence-surveillance-reconnaissance/",
+      "href": "https://epeerless.com/services/intelligence-surveillance-reconnaissance/",
+      "text": "Intelligence, Surveillance & Reconnaissance",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/services/",
+        "text": "What We DoExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": null
+    },
+    {
+      "to": "https://epeerless.com/services/medical-human-performance/",
+      "href": "https://epeerless.com/services/medical-human-performance/",
+      "text": "Medical & Human Performance",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/services/",
+        "text": "What We DoExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": null
+    },
+    {
+      "to": "https://epeerless.com/peerless-partnership-alliance/",
+      "href": "https://epeerless.com/peerless-partnership-alliance/",
+      "text": "Partnership Alliance",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/services/",
+        "text": "What We DoExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": "peerless-partnership-alliance"
+    },
+    {
+      "to": "https://epeerless.com/services/program-management/",
+      "href": "https://epeerless.com/services/program-management/",
+      "text": "Program Management",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/services/",
+        "text": "What We DoExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": null
+    },
+    {
+      "to": "https://epeerless.com/services/research-development-test-evaluation/",
+      "href": "https://epeerless.com/services/research-development-test-evaluation/",
+      "text": "Research & Development, Test & Evaluation",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/services/",
+        "text": "What We DoExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": null
+    },
+    {
+      "to": "https://epeerless.com/services/systems-engineering/",
+      "href": "https://epeerless.com/services/systems-engineering/",
+      "text": "Systems Engineering",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/services/",
+        "text": "What We DoExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": null
+    },
+    {
+      "to": "https://epeerless.com/services/technology-innovation-support-sbir-sttr/",
+      "href": "https://epeerless.com/services/technology-innovation-support-sbir-sttr/",
+      "text": "Technology Innovation Support (SBIR/STTR)",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/services/",
+        "text": "What We DoExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": "service"
+    },
+    {
+      "to": "https://epeerless.com/contracting/",
+      "href": "https://epeerless.com/contracting/",
+      "text": "Contracting Expand",
+      "region": "header",
+      "seenOn": "https://epeerless.com/",
+      "template": "contracting-list"
+    },
+    {
+      "to": "https://epeerless.com/contracting/mas-psc/",
+      "href": "https://epeerless.com/contracting/mas-psc/",
+      "text": "MAS-PSC",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/contracting/",
+        "text": "ContractingExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": "contracting"
+    },
+    {
+      "to": "https://epeerless.com/contracting/gsa-oasis-idiq-contract/",
+      "href": "https://epeerless.com/contracting/gsa-oasis-idiq-contract/",
+      "text": "OASIS",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/contracting/",
+        "text": "ContractingExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": "contracting"
+    },
+    {
+      "to": "https://epeerless.com/contracting/responsive-strategic-sourcing-for-services-rs3/",
+      "href": "https://epeerless.com/contracting/responsive-strategic-sourcing-for-services-rs3/",
+      "text": "RS3",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/contracting/",
+        "text": "ContractingExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": "contracting"
+    },
+    {
+      "to": "https://epeerless.com/contracting/seaport-e/",
+      "href": "https://epeerless.com/contracting/seaport-e/",
+      "text": "SeaPort-E",
+      "hidden": true,
+      "region": "header",
+      "trigger": {
+        "href": "https://epeerless.com/contracting/",
+        "text": "ContractingExpand"
+      },
+      "seenOn": "https://epeerless.com/",
+      "template": null
+    },
+    {
+      "to": "https://epeerless.com/products/",
+      "href": "https://epeerless.com/products/",
+      "text": "Products",
+      "region": "header",
+      "seenOn": "https://epeerless.com/",
+      "template": "products"
+    },
+    {
+      "to": "https://epeerless.com/peerless-innovation-center/",
+      "href": "https://epeerless.com/peerless-innovation-center/",
+      "text": "Innovation Center",
+      "region": "header",
+      "seenOn": "https://epeerless.com/",
+      "template": "peerless-innovation-center"
+    },
+    {
+      "to": "https://epeerless.com/careers/",
+      "href": "https://epeerless.com/careers/",
+      "text": "Careers",
+      "region": "header",
+      "seenOn": "https://epeerless.com/",
+      "template": "careers"
+    },
+    {
+      "to": "https://epeerless.com/contact-us/",
+      "href": "https://epeerless.com/contact-us/",
+      "text": "Contact Us",
+      "region": "header",
+      "seenOn": "https://epeerless.com/",
+      "template": "contact-us"
+    },
+    {
+      "to": "https://epeerless.com/peerless-names-new-president-of-qed-systems/",
+      "href": "https://epeerless.com/peerless-names-new-president-of-qed-systems/",
+      "text": "Peerless names new president of QED Systems",
+      "region": "footer",
+      "seenOn": "https://epeerless.com/",
+      "template": "post-navigation"
+    },
+    {
+      "to": "https://epeerless.com/peerless-technologies-acquires-maryland-defense-firm/",
+      "href": "https://epeerless.com/peerless-technologies-acquires-maryland-defense-firm/",
+      "text": "PEERLESS TECHNOLOGIES ACQUIRES MARYLAND DEFENSE FIRM",
+      "region": "footer",
+      "seenOn": "https://epeerless.com/",
+      "template": "post-navigation"
+    },
+    {
+      "to": "https://epeerless.com/peerless-employee-tapped-to-lead-association-of-old-crows-chapter/",
+      "href": "https://epeerless.com/peerless-employee-tapped-to-lead-association-of-old-crows-chapter/",
+      "text": "Peerless employee tapped to lead Association of Old Crows Chapter",
+      "region": "footer",
+      "seenOn": "https://epeerless.com/",
+      "template": "post-navigation"
+    },
+    {
+      "to": "https://epeerless.com/peerless-awarded-second-cogswell-award/",
+      "href": "https://epeerless.com/peerless-awarded-second-cogswell-award/",
+      "text": "Peerless awarded second Cogswell Award",
+      "region": "footer",
+      "seenOn": "https://epeerless.com/",
+      "template": "post-navigation"
+    },
+    {
+      "to": "https://epeerless.com/",
+      "href": "https://epeerless.com/",
+      "text": "peerless logo",
+      "region": "header",
+      "seenOn": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/",
+      "template": "home"
+    }
+  ],
+  "templates": [
+    {
+      "id": "home",
+      "name": "HomePage",
+      "urlPatterns": [
+        "/"
+      ],
+      "pages": [
+        "https://epeerless.com/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Peerless Technologies",
+      "sharedHeadings": [
+        "INTEGRATED INNOVATION ACROSS THEDEFENSE SPECTRUM",
+        "Trusted By:",
+        "U.S. Department of defense",
+        "NASA",
+        "U.S. ARMY",
+        "U.S. NAVY",
+        "U.S. AIR FORCE",
+        "Broad Experience, Focused Solutions",
+        "Advanced Engineering, Cybersecurity, and IT Solutions for Federal Missions",
+        "Quality You Can Trust",
+        "Trusted Government Partnerships",
+        "Empower Your Career",
+        "Latest News",
+        "Peerless names new president of QED Systems",
+        "PEERLESS TECHNOLOGIES ACQUIRES MARYLAND DEFENSE FIRM",
+        "Peerless employee tapped to lead Association of Old Crows Chapter",
+        "Peerless awarded second Cogswell Award",
+        "Peerless wins task order worth up to $27 million",
+        "Our History",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "post-navigation",
+          "count": 1,
+          "example": {
+            "from": "https://epeerless.com/",
+            "to": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/",
+            "href": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/",
+            "text": "Peerless wins task order worth up to $27 million"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Go to last slide"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Go to last slide']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Next slide"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Next slide']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Go to slide 1"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Go to slide 1']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Go to slide 2"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Go to slide 2']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Go to slide 3"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Go to slide 3']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Go to slide 4"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Go to slide 4']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Go to slide 5"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Go to slide 5']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/"
+        }
+      ],
+      "why": {
+        "rule": "start-page",
+        "says": "the start page: always a page type of its own, since every test starts there"
+      }
+    },
+    {
+      "id": "post-navigation",
+      "name": "PostNavigationPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/",
+        "https://epeerless.com/peerless-names-new-president-of-qed-systems/",
+        "https://epeerless.com/peerless-technologies-acquires-maryland-defense-firm/",
+        "https://epeerless.com/peerless-employee-tapped-to-lead-association-of-old-crows-chapter/",
+        "https://epeerless.com/peerless-awarded-second-cogswell-award/",
+        "https://epeerless.com/peerless-technologies-ranks-among-the-best-in-it-professional-services/",
+        "https://epeerless.com/peerless-supports-the-local-stem-academy/",
+        "https://epeerless.com/goodman-named-chief-performance-officer/",
+        "https://epeerless.com/hurlburt-named-vp-of-technology-solutions-group/",
+        "https://epeerless.com/peerless-wins-110-million-u-s-air-force-contract-to-support-f-22-raptor-program-office/",
+        "https://epeerless.com/peerless-on-dayton-business-journals-top-minority-owned-companies-list/",
+        "https://epeerless.com/peerless-technologies-wins-unrestricted-general-services-administration-oasis-contract/",
+        "https://epeerless.com/kunk-named-to-2023-whos-who-in-aerospace-and-defense/",
+        "https://epeerless.com/peerless-wins-top-honor-from-department-of-defense/",
+        "https://epeerless.com/peerless-hires-mr-james-free-to-the-sr-leadership-team/",
+        "https://epeerless.com/peerless-names-new-chief-financial-officer/",
+        "https://epeerless.com/peerless-executives-lend-a-hand-to-habitat-for-humanity/",
+        "https://epeerless.com/coming-together-to-help-those-in-need/",
+        "https://epeerless.com/peerless-expands-in-huntsville-alabama/",
+        "https://epeerless.com/peerless-cfo-andrea-kunk-profiled-in-the-dayton-business-journal/",
+        "https://epeerless.com/peerless-acquires-defense-firm/",
+        "https://epeerless.com/dcsa-director-presents-top-agency-honor-to-peerless/",
+        "https://epeerless.com/peerless-technologies-is-proud-to-support-local-classrooms/",
+        "https://epeerless.com/peerless-promotes-head-of-omaha-office-to-vice-president-of-operations/",
+        "https://epeerless.com/peerless-sponsored-critical-care-training-center-opens-2/",
+        "https://epeerless.com/siertek-peerless-jv-llc-awarded-share-in-disa-17-5-billion-encore-iii-multi-award-contract/",
+        "https://epeerless.com/peerless-wins-afrl-experimental-facilities-contract/"
+      ],
+      "repeated": true,
+      "knownUrls": 72,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "Post navigation",
+        "Similar Posts",
+        "Our History",
+        "Quick Links"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "post-navigation",
+          "count": 64,
+          "example": {
+            "from": "https://epeerless.com/peerless-names-new-president-of-qed-systems/",
+            "to": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/",
+            "href": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/",
+            "text": "Peerless wins task order worth up to $27 million"
+          }
+        },
+        {
+          "template": "page-navigation",
+          "count": 64,
+          "example": {
+            "from": "https://epeerless.com/peerless-awarded-second-cogswell-award/",
+            "to": "https://epeerless.com/category/news/",
+            "href": "https://epeerless.com/category/news/",
+            "text": "News"
+          }
+        },
+        {
+          "template": "author-mwallace-page",
+          "count": 26,
+          "example": {
+            "from": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/",
+            "to": "https://epeerless.com/author/mwallace/",
+            "href": "https://epeerless.com/author/mwallace/",
+            "text": "Mike Wallace"
+          }
+        },
+        {
+          "template": "category-awards-recognition",
+          "count": 20,
+          "example": {
+            "from": "https://epeerless.com/peerless-awarded-second-cogswell-award/",
+            "to": "https://epeerless.com/category/awards-recognition/",
+            "href": "https://epeerless.com/category/awards-recognition/",
+            "text": "Awards & Recognition"
+          }
+        },
+        {
+          "template": "about-us",
+          "count": 7,
+          "example": {
+            "from": "https://epeerless.com/goodman-named-chief-performance-officer/",
+            "to": "https://epeerless.com/about-us/leadership/bob-goodman/",
+            "href": "https://epeerless.com/about-us/leadership/bob-goodman/",
+            "text": "Bob Goodman"
+          }
+        }
+      ],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "Go to last slide"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Go to last slide']",
+          "stability": "Strong",
+          "pages": 27,
+          "seenOn": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Next"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Next']",
+          "stability": "Strong",
+          "pages": 27,
+          "seenOn": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Go to slide 1"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Go to slide 1']",
+          "stability": "Strong",
+          "pages": 27,
+          "seenOn": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Go to slide 2"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Go to slide 2']",
+          "stability": "Strong",
+          "pages": 27,
+          "seenOn": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Go to slide 3"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Go to slide 3']",
+          "stability": "Strong",
+          "pages": 27,
+          "seenOn": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Go to slide 4"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Go to slide 4']",
+          "stability": "Strong",
+          "pages": 27,
+          "seenOn": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Go to slide 5"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Go to slide 5']",
+          "stability": "Strong",
+          "pages": 23,
+          "seenOn": "https://epeerless.com/peerless-awarded-second-cogswell-award/"
+        },
+        {
+          "kind": "tab",
+          "words": [
+            "Go to slide 6"
+          ],
+          "region": "main",
+          "xpath": "//button[@aria-label='Go to slide 6']",
+          "stability": "Strong",
+          "pages": 23,
+          "seenOn": "https://epeerless.com/peerless-awarded-second-cogswell-award/"
+        }
+      ],
+      "why": {
+        "rule": "family-by-evidence",
+        "says": "its 27 pages read look alike (layout 90% the same, headings 62%), and every page shows the heading \"Post navigation\"; joined by: the headings agree, with some layout shared (282 comparisons); the layouts agree, with some headings shared (69 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "headings-agree",
+            "pairs": 282
+          },
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 69
+          }
+        ]
+      }
+    },
+    {
+      "id": "service",
+      "name": "ServicePage",
+      "urlPatterns": [
+        "/services/*"
+      ],
+      "pages": [
+        "https://epeerless.com/services/technology-innovation-support-sbir-sttr/",
+        "https://epeerless.com/services/cybersecurity/",
+        "https://epeerless.com/services/energy-conservation-management/",
+        "https://epeerless.com/services/information-technology/"
+      ],
+      "repeated": true,
+      "knownUrls": 4,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "Capabilities and Experience",
+        "Related Links",
+        "Intelligence, Surveillance & Reconnaissance",
+        "Medical & Human Performance",
+        "Research & Development, Test & Evaluation",
+        "Systems Engineering",
+        "Our History",
+        "Latest News",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 4 pages read look alike (layout 99% the same, headings 53%) and share the address pattern /services/*; joined by: the headings agree, with some layout shared (4 comparisons); the layouts agree, with some headings shared (2 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "headings-agree",
+            "pairs": 4
+          },
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "about-us-list",
+      "name": "AboutUsListPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://epeerless.com/about-us/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "About Us – Peerless Technologies",
+      "sharedHeadings": [
+        "About Us",
+        "Empowering Federal Missions with Excellence and Integrity",
+        "About Peerless",
+        "Core Values",
+        "People",
+        "Quality",
+        "Integrity",
+        "Value",
+        "Our Vision",
+        "What We Offer",
+        "Our Services Include:",
+        "Awards & Facilities",
+        "Our History",
+        "Latest News",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /services/technology-innovation-support-sbir-sttr/, /latest-news/, /services/cybersecurity/ and 17 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "latest-news",
+      "name": "LatestNewsPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://epeerless.com/latest-news/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Latest News – Peerless Technologies",
+      "sharedHeadings": [
+        "Latest News",
+        "Peerless names new president of QED Systems",
+        "PEERLESS TECHNOLOGIES ACQUIRES MARYLAND DEFENSE FIRM",
+        "Peerless employee tapped to lead Association of Old Crows Chapter",
+        "Peerless awarded second Cogswell Award",
+        "Peerless wins task order worth up to $27 million",
+        "Peerless names new Chief Growth Officer/Chief Technology Officer",
+        "Our History",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "post-navigation",
+          "count": 1,
+          "example": {
+            "from": "https://epeerless.com/latest-news/",
+            "to": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/",
+            "href": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/",
+            "text": "Peerless wins task order worth up to $27 million"
+          }
+        },
+        {
+          "template": "page-navigation",
+          "count": 1,
+          "example": {
+            "from": "https://epeerless.com/latest-news/",
+            "to": "https://epeerless.com/category/news/",
+            "href": "https://epeerless.com/category/news/",
+            "text": "News"
+          }
+        },
+        {
+          "template": "category-awards-recognition",
+          "count": 1,
+          "example": {
+            "from": "https://epeerless.com/latest-news/",
+            "to": "https://epeerless.com/category/awards-recognition/",
+            "href": "https://epeerless.com/category/awards-recognition/",
+            "text": "Awards & Recognition"
+          }
+        }
+      ],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /services/technology-innovation-support-sbir-sttr/, /about-us/, /services/cybersecurity/ and 17 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "contracting",
+      "name": "ContractingPage",
+      "urlPatterns": [
+        "/contracting/*"
+      ],
+      "pages": [
+        "https://epeerless.com/contracting/mas-psc/",
+        "https://epeerless.com/contracting/gsa-oasis-idiq-contract/",
+        "https://epeerless.com/contracting/responsive-strategic-sourcing-for-services-rs3/"
+      ],
+      "repeated": true,
+      "knownUrls": 3,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "Contact Us",
+        "Our History",
+        "Latest News",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 3 pages read look alike (layout 98% the same, headings 34%) and share the address pattern /contracting/*; joined by: the layouts agree, with some headings shared (3 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "page-navigation",
+      "name": "PageNavigationPage",
+      "urlPatterns": [
+        "/*/*/page/*",
+        "/*/*",
+        "/author/peerlesstechmarketing/page/*"
+      ],
+      "pages": [
+        "https://epeerless.com/category/news/",
+        "https://epeerless.com/category/community/",
+        "https://epeerless.com/category/news/page/6/",
+        "https://epeerless.com/category/news/page/5/",
+        "https://epeerless.com/author/peerlesstechmarketing/",
+        "https://epeerless.com/author/peerlesstechmarketing/page/3/",
+        "https://epeerless.com/category/news/page/2/",
+        "https://epeerless.com/author/mwallace/page/5/",
+        "https://epeerless.com/author/mwallace/page/2/",
+        "https://epeerless.com/author/peerlesstechmarketing/page/2/",
+        "https://epeerless.com/category/community/page/2/"
+      ],
+      "repeated": true,
+      "knownUrls": 18,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "Page navigation",
+        "Our History",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "page-navigation",
+          "count": 38,
+          "example": {
+            "from": "https://epeerless.com/category/news/",
+            "to": "https://epeerless.com/category/community/",
+            "href": "https://epeerless.com/category/community/",
+            "text": "Community"
+          }
+        },
+        {
+          "template": "post-navigation",
+          "count": 31,
+          "example": {
+            "from": "https://epeerless.com/category/news/",
+            "to": "https://epeerless.com/peerless-acquires-defense-firm/",
+            "href": "https://epeerless.com/peerless-acquires-defense-firm/",
+            "text": "Peerless acquires defense firm"
+          }
+        },
+        {
+          "template": "author-mwallace-page",
+          "count": 9,
+          "example": {
+            "from": "https://epeerless.com/category/news/",
+            "to": "https://epeerless.com/author/mwallace/",
+            "href": "https://epeerless.com/author/mwallace/",
+            "text": "Mike Wallace"
+          }
+        },
+        {
+          "template": "category-awards-recognition",
+          "count": 2,
+          "example": {
+            "from": "https://epeerless.com/category/news/",
+            "to": "https://epeerless.com/category/awards-recognition/",
+            "href": "https://epeerless.com/category/awards-recognition/",
+            "text": "Awards & Recognition"
+          }
+        }
+      ],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 11 pages read look alike (layout 80% the same, headings 24%) and share the address pattern /*/*/page/*; joined by: the layouts agree, with some headings shared (44 comparisons); the headings agree, with some layout shared (3 comparisons); 8 comparisons held by no rule",
+        "joinedBy": [
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 44
+          },
+          {
+            "rule": "headings-agree",
+            "pairs": 3
+          }
+        ],
+        "apart": 8
+      }
+    },
+    {
+      "id": "services",
+      "name": "ServicesPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://epeerless.com/services/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Services – Peerless Technologies",
+      "sharedHeadings": [
+        "Cost-Effective Professional and Engineering Solutions",
+        "Quality Management and Advanced Facility Capabilities",
+        "Comprehensive Advisory and Assistance Support (A&AS)",
+        "Our Services",
+        "Aerospace",
+        "Cybersecurity",
+        "Energy Conservation and Management",
+        "Information Technology",
+        "Intelligence, Surveillance,and Reconnaissance (ISR)",
+        "Medical and Human Performance",
+        "Program Management",
+        "Research and Development,Test and Evaluation",
+        "Systems Engineering",
+        "Technology Innovation Support (SBIR/STTR)",
+        "Training and Training Systems",
+        "Our History",
+        "Latest News",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /services/technology-innovation-support-sbir-sttr/, /about-us/, /latest-news/ and 17 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "peerless-partnership-alliance",
+      "name": "PeerlessPartnershipAlliancePage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://epeerless.com/peerless-partnership-alliance/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Peerless Partnership Alliance – Peerless Technologies",
+      "sharedHeadings": [
+        "Join the Peerless Partnership Alliance",
+        "World-Class Teams for Unified Missions",
+        "Supporting Small Businesses for a Stronger America",
+        "Our History",
+        "Latest News",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /services/technology-innovation-support-sbir-sttr/, /about-us/, /latest-news/ and 17 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "contracting-list",
+      "name": "ContractingListPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://epeerless.com/contracting/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Contracting – Peerless Technologies",
+      "sharedHeadings": [
+        "Contract with Peerless for Cost-Effective Services and Engineering Solutions",
+        "Peerless contracting offers you:",
+        "Peerless Prime Contract Vehicles",
+        "GSA Multiple Award Schedule – Professional Services Category (MAS-PSC)",
+        "GSA OASIS Small Business and Unrestricted IDIQ Contracts",
+        "SeaPort-Next Generation (Seaport-NxG)",
+        "Defense Information Systems Agency (DISA) ENCORE III Small Business",
+        "Responsive Strategic Sourcing for Services (RS3)",
+        "NASA Pace IV",
+        "Contact Us",
+        "Mindy Helligrath",
+        "Jerry Tritle",
+        "Our History",
+        "Latest News",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /services/technology-innovation-support-sbir-sttr/, /about-us/, /latest-news/ and 17 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "products",
+      "name": "ProductsPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://epeerless.com/products/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Products – Peerless Technologies",
+      "sharedHeadings": [
+        "Products",
+        "Peerless Commercial Software Products",
+        "Our History",
+        "Latest News",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "controls": [
+        {
+          "kind": "button",
+          "words": [
+            "SEWOL Framework v0.1 Baseline"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='SEWOL Framework v0.1 Baseline']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/products/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "SEWOL Common Application Framework v2.0"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='SEWOL Common Application Framework v2.0']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/products/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "SEWOL Target Data Management Application v0.1"
+          ],
+          "region": "main",
+          "xpath": "//button[starts-with(normalize-space(),'SEWOL Target Data Management Application')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/products/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "SEWOL Common Operating Picture Application v0.1"
+          ],
+          "region": "main",
+          "xpath": "//button[starts-with(normalize-space(),'SEWOL Common Operating Picture')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/products/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "RECON"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='RECON']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/products/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "kyma"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='kyma']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/products/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "TRONFYRES"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='TRONFYRES']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/products/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Statheros Common Application Framework"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='Statheros Common Application Framework']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/products/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "RetroSpec"
+          ],
+          "region": "main",
+          "xpath": "//button[normalize-space()='RetroSpec']",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/products/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "GPU-accelerated signal processing pipeline"
+          ],
+          "region": "main",
+          "xpath": "//button[starts-with(normalize-space(),'GPU-accelerated signal processing')]",
+          "stability": "OK",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/products/"
+        }
+      ],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /services/technology-innovation-support-sbir-sttr/, /about-us/, /latest-news/ and 17 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "peerless-innovation-center",
+      "name": "PeerlessInnovationCenterPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://epeerless.com/peerless-innovation-center/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Peerless Innovation Center – Peerless Technologies",
+      "sharedHeadings": [
+        "A Center of Excellence for Peerless R&D",
+        "Core capabilities include:",
+        "Multi-spectral Sensor Engineering",
+        "Modeling & Simulation",
+        "Digital System Engineering & Transformation",
+        "Software Engineering/DevSecOps",
+        "Airworthiness",
+        "Nuclear Sustainment & Effects",
+        "Contract Vehicles/Other Transaction Authorities",
+        "Contract Vehicles:",
+        "OTAs:",
+        "Our History",
+        "Latest News",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /services/technology-innovation-support-sbir-sttr/, /about-us/, /latest-news/ and 17 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "latest-news2",
+      "name": "LatestNews2Page",
+      "urlPatterns": [
+        "/about-us/*"
+      ],
+      "pages": [
+        "https://epeerless.com/about-us/history/",
+        "https://epeerless.com/about-us/leadership/",
+        "https://epeerless.com/about-us/environmental-sustainability/"
+      ],
+      "repeated": true,
+      "knownUrls": 3,
+      "titlePattern": "{name} – Peerless Technologies",
+      "sharedHeadings": [
+        "Latest News",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": true,
+      "linksTo": [
+        {
+          "template": "about-us",
+          "count": 3,
+          "example": {
+            "from": "https://epeerless.com/about-us/leadership/",
+            "to": "https://epeerless.com/about-us/leadership/andrea-kunk/",
+            "href": "https://epeerless.com/about-us/leadership/andrea-kunk/",
+            "text": "ANDREA KUNK President & CEO"
+          }
+        }
+      ],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 3 pages read look alike (layout 92% the same, headings 23%) and share the address pattern /about-us/*; joined by: the layouts agree, with some headings shared (3 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "category-awards-recognition",
+      "name": "CategoryAwardsRecognitionPage",
+      "urlPatterns": [
+        "/category/*"
+      ],
+      "pages": [
+        "https://epeerless.com/category/awards-recognition/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Awards & Recognition – Peerless Technologies",
+      "sharedHeadings": [
+        "Awards & Recognition",
+        "Peerless awarded second Cogswell Award",
+        "Kunk named to 2023 “Who’s Who in Aerospace and Defense”",
+        "NATO’s Science & Technology Organization presents top honor to Peerless engineer",
+        "Kunk named to 2022 “Who’s Who in Aerospace and Defense”",
+        "DCSA director presents top agency honor to Peerless",
+        "Peerless named one of the ’50 Fastest-Growing Companies’",
+        "Peerless wins top honor from Department of Defense",
+        "Peerless researcher awarded NASA Exceptional Public Service Medal",
+        "Peerless wins $110M Air Force contract to support F-22 Raptor Program Office",
+        "Our History",
+        "Latest News",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "post-navigation",
+          "count": 4,
+          "example": {
+            "from": "https://epeerless.com/category/awards-recognition/",
+            "to": "https://epeerless.com/kunk-named-to-2023-whos-who-in-aerospace-and-defense/",
+            "href": "https://epeerless.com/kunk-named-to-2023-whos-who-in-aerospace-and-defense/",
+            "text": "Kunk named to 2023 “Who’s Who in Aerospace and Defense”"
+          }
+        },
+        {
+          "template": "page-navigation",
+          "count": 2,
+          "example": {
+            "from": "https://epeerless.com/category/awards-recognition/",
+            "to": "https://epeerless.com/category/news/",
+            "href": "https://epeerless.com/category/news/",
+            "text": "News"
+          }
+        },
+        {
+          "template": "author-mwallace-page",
+          "count": 1,
+          "example": {
+            "from": "https://epeerless.com/category/awards-recognition/",
+            "to": "https://epeerless.com/author/mwallace/",
+            "href": "https://epeerless.com/author/mwallace/",
+            "text": "Mike Wallace"
+          }
+        }
+      ],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /author/mwallace/, /author/mwallace/page/3/, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "about-us",
+      "name": "AboutUsPage",
+      "urlPatterns": [
+        "/about-us/*/*"
+      ],
+      "pages": [
+        "https://epeerless.com/about-us/leadership/david-murray/",
+        "https://epeerless.com/about-us/leadership/bob-goodman/",
+        "https://epeerless.com/about-us/leadership/andrea-kunk/"
+      ],
+      "repeated": true,
+      "knownUrls": 8,
+      "titlePattern": "{name} – Peerless Technologies",
+      "sharedHeadings": [
+        "Latest Peerless News",
+        "Peerless names new president of QED Systems",
+        "PEERLESS TECHNOLOGIES ACQUIRES MARYLAND DEFENSE FIRM",
+        "Peerless employee tapped to lead Association of Old Crows Chapter",
+        "Peerless awarded second Cogswell Award",
+        "Peerless wins task order worth up to $27 million",
+        "Peerless names new Chief Growth Officer/Chief Technology Officer",
+        "Our History",
+        "Latest News",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "post-navigation",
+          "count": 3,
+          "example": {
+            "from": "https://epeerless.com/about-us/leadership/david-murray/",
+            "to": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/",
+            "href": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/",
+            "text": "Peerless wins task order worth up to $27 million"
+          }
+        }
+      ],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 3 pages read look alike (layout 97% the same, headings 86%) and share the address pattern /about-us/*/*; joined by: the headings agree, with some layout shared (3 comparisons)",
+        "joinedBy": [
+          {
+            "rule": "headings-agree",
+            "pairs": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "author-mwallace-page",
+      "name": "AuthorMwallacePagePage",
+      "urlPatterns": [
+        "/author/mwallace/page/*",
+        "/author/*"
+      ],
+      "pages": [
+        "https://epeerless.com/author/mwallace/",
+        "https://epeerless.com/author/mwallace/page/3/"
+      ],
+      "repeated": true,
+      "knownUrls": 2,
+      "titlePattern": null,
+      "sharedHeadings": [
+        "Author: Mike Wallace",
+        "Page navigation",
+        "Our History",
+        "Latest News",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": false,
+      "linksTo": [
+        {
+          "template": "post-navigation",
+          "count": 8,
+          "example": {
+            "from": "https://epeerless.com/author/mwallace/",
+            "to": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/",
+            "href": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/",
+            "text": "Peerless wins task order worth up to $27 million"
+          }
+        },
+        {
+          "template": "page-navigation",
+          "count": 6,
+          "example": {
+            "from": "https://epeerless.com/author/mwallace/",
+            "to": "https://epeerless.com/category/news/",
+            "href": "https://epeerless.com/category/news/",
+            "text": "News"
+          }
+        },
+        {
+          "template": "category-awards-recognition",
+          "count": 2,
+          "example": {
+            "from": "https://epeerless.com/author/mwallace/",
+            "to": "https://epeerless.com/category/awards-recognition/",
+            "href": "https://epeerless.com/category/awards-recognition/",
+            "text": "Awards & Recognition"
+          }
+        },
+        {
+          "template": "author-mwallace-page",
+          "count": 2,
+          "example": {
+            "from": "https://epeerless.com/author/mwallace/",
+            "to": "https://epeerless.com/author/mwallace/page/3/",
+            "href": "https://epeerless.com/author/mwallace/page/3/",
+            "text": "3"
+          }
+        }
+      ],
+      "why": {
+        "rule": "family-by-address",
+        "says": "its 2 pages read look alike (layout 74% the same, headings 23%) and share the address pattern /author/mwallace/page/*; joined by: the layouts agree, with some headings shared (1 comparison)",
+        "joinedBy": [
+          {
+            "rule": "layout-and-some-headings",
+            "pairs": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "careers",
+      "name": "CareersPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://epeerless.com/careers/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Careers – Peerless Technologies",
+      "sharedHeadings": [
+        "Build a Career That’s Right for You",
+        "Having Trouble Applying?",
+        "Equal EmploymentOpportunity Statement",
+        "Pay TransparencyNondiscrimination Provision",
+        "Our History",
+        "Latest News",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "why": {
+        "rule": "layout-only",
+        "says": "laid out like /services/technology-innovation-support-sbir-sttr/, /about-us/, /latest-news/ and 17 more, but no title or heading says they are one kind of page, and their addresses share no part: each is its own"
+      }
+    },
+    {
+      "id": "contact-us",
+      "name": "ContactUsPage",
+      "urlPatterns": [
+        "/*"
+      ],
+      "pages": [
+        "https://epeerless.com/contact-us/"
+      ],
+      "repeated": false,
+      "knownUrls": 1,
+      "titlePattern": "Contact Us – Peerless Technologies",
+      "sharedHeadings": [
+        "Talk to Us",
+        "Name *",
+        "First",
+        "Last",
+        "Address",
+        "Address Line 1",
+        "Address Line 2",
+        "City",
+        "State",
+        "Zip Code",
+        "* Company Questions",
+        "Phone",
+        "Email *",
+        "Company",
+        "Comments or Questions *",
+        "Peerless Technologies Headquarters",
+        "Our History",
+        "Latest News",
+        "Corporate Offices",
+        "Quick Links"
+      ],
+      "inMenu": true,
+      "linksTo": [],
+      "controls": [
+        {
+          "kind": "text field",
+          "words": [
+            "First",
+            "wpforms[fields][14][first]"
+          ],
+          "region": "main",
+          "form": "Name *",
+          "required": true,
+          "noValidate": true,
+          "xpath": "//input[@name='wpforms[fields][14][first]']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/contact-us/"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Last",
+            "wpforms[fields][14][last]"
+          ],
+          "region": "main",
+          "form": "Name *",
+          "required": true,
+          "noValidate": true,
+          "xpath": "//input[@name='wpforms[fields][14][last]']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/contact-us/"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Address Line 1",
+            "wpforms[fields][13][address1]"
+          ],
+          "region": "main",
+          "form": "Name *",
+          "noValidate": true,
+          "xpath": "//input[@name='wpforms[fields][13][address1]']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/contact-us/"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Address Line 2",
+            "wpforms[fields][13][address2]"
+          ],
+          "region": "main",
+          "form": "Name *",
+          "noValidate": true,
+          "xpath": "//input[@name='wpforms[fields][13][address2]']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/contact-us/"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "City",
+            "wpforms[fields][13][city]"
+          ],
+          "region": "main",
+          "form": "Name *",
+          "noValidate": true,
+          "xpath": "//input[@name='wpforms[fields][13][city]']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/contact-us/"
+        },
+        {
+          "kind": "dropdown",
+          "words": [
+            "State",
+            "wpforms[fields][13][state]"
+          ],
+          "region": "main",
+          "form": "Name *",
+          "options": [
+            "Alabama",
+            "Alaska",
+            "Arizona",
+            "Arkansas",
+            "California"
+          ],
+          "noValidate": true,
+          "xpath": "//select[@name='wpforms[fields][13][state]']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/contact-us/"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Zip Code",
+            "ZIP / Postal",
+            "wpforms[fields][13][postal]"
+          ],
+          "region": "main",
+          "form": "Name *",
+          "noValidate": true,
+          "xpath": "//input[@name='wpforms[fields][13][postal]']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/contact-us/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Change country for phone number, currently selected Unite...",
+            "United States"
+          ],
+          "region": "main",
+          "form": "Name *",
+          "noValidate": true,
+          "xpath": "//button[@aria-label='Change country for phone number, currently selected United States (+1)']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/contact-us/"
+        },
+        {
+          "kind": "tel field",
+          "words": [
+            "Phone",
+            "(201) 555-0123",
+            "wpf-temp-wpforms[fields][15]"
+          ],
+          "region": "main",
+          "form": "Name *",
+          "noValidate": true,
+          "xpath": "//input[@name='wpf-temp-wpforms[fields][15]']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/contact-us/"
+        },
+        {
+          "kind": "email field",
+          "words": [
+            "Email *",
+            "wpforms[fields][2]"
+          ],
+          "region": "main",
+          "form": "Name *",
+          "required": true,
+          "noValidate": true,
+          "xpath": "//input[@name='wpforms[fields][2]']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/contact-us/"
+        },
+        {
+          "kind": "text field",
+          "words": [
+            "Company",
+            "wpforms[fields][11]"
+          ],
+          "region": "main",
+          "form": "Name *",
+          "noValidate": true,
+          "xpath": "//input[@name='wpforms[fields][11]']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/contact-us/"
+        },
+        {
+          "kind": "text area",
+          "words": [
+            "Comments or Questions *",
+            "wpforms[fields][3]"
+          ],
+          "region": "main",
+          "form": "Name *",
+          "required": true,
+          "noValidate": true,
+          "xpath": "//textarea[@name='wpforms[fields][3]']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/contact-us/"
+        },
+        {
+          "kind": "button",
+          "words": [
+            "Submit"
+          ],
+          "region": "main",
+          "form": "Name *",
+          "noValidate": true,
+          "xpath": "//button[@name='wpforms[submit]']",
+          "stability": "Strong",
+          "pages": 1,
+          "seenOn": "https://epeerless.com/contact-us/"
+        }
+      ],
+      "why": {
+        "rule": "unlike-others",
+        "says": "no other page read is enough like it (the closest, /careers/, shares 95% of its layout and 17% of its headings)"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "url": "https://epeerless.com/about-us/leadership/darren-gero/",
+      "reason": "answered 404 (a broken link)"
+    }
+  ],
+  "userAgent": "Mozilla/5.0 (compatible; SuiteBuilder/1.0; +https://github.com/Ghost-in-the-Kernel-Labs/Ghost-in-the-Kernel-Labs-suite-builder-docs)",
+  "brokenLinks": [
+    {
+      "url": "https://epeerless.com/about-us/leadership/darren-gero/",
+      "status": 404,
+      "linkedFrom": [
+        "https://epeerless.com/peerless-expands-in-huntsville-alabama/"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "code": "SITE-02",
+      "severity": "major",
+      "title": "1 broken link: the site links to an address that answers an error",
+      "where": [
+        {
+          "url": "https://epeerless.com/about-us/leadership/darren-gero/",
+          "says": "answered 404; linked from /peerless-expands-in-huntsville-alabama/",
+          "link": {
+            "paths": [
+              "/about-us/leadership/darren-gero/"
+            ],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/peerless-expands-in-huntsville-alabama/"
+            ],
+            "more": 0,
+            "why": "broken"
+          }
+        }
+      ],
+      "why": "A visitor who follows one of these links reaches an error instead of the page promised.",
+      "fix": "Point each link at a page that exists, or bring the page back (or redirect its old address to where it went)."
+    },
+    {
+      "code": "SITE-33",
+      "severity": "major",
+      "title": "3 links to other sites lead nowhere: the pages are gone",
+      "where": [
+        {
+          "url": "https://www.gsa.gov/node/73060",
+          "says": "answered 404; linked from /contracting/mas-psc/, /contracting/gsa-oasis-idiq-contract/",
+          "link": {
+            "paths": [],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/contracting/mas-psc/",
+              "/contracting/gsa-oasis-idiq-contract/"
+            ],
+            "more": 0,
+            "why": "broken"
+          },
+          "offSite": true
+        },
+        {
+          "url": "https://www.gsa.gov/portal/content/198925",
+          "says": "answered 404; linked from /contracting/mas-psc/",
+          "link": {
+            "paths": [],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/contracting/mas-psc/"
+            ],
+            "more": 0,
+            "why": "broken"
+          },
+          "offSite": true
+        },
+        {
+          "url": "https://goo.gl/6XkvzB",
+          "says": "answered 404; linked from /peerless-on-dayton-business-journals-top-minority-owned-companies-list/",
+          "link": {
+            "paths": [],
+            "status": 404,
+            "answer": "answered 404",
+            "from": [
+              "/peerless-on-dayton-business-journals-top-minority-owned-companies-list/"
+            ],
+            "more": 0,
+            "why": "broken"
+          },
+          "offSite": true
+        }
+      ],
+      "why": "Sites move and close: a visitor who follows one of these links meets an error page, or nothing at all, on someone else's site, and leaves thinking less of this one.",
+      "fix": "Point each link at where the page lives now, or take it out. The suite's link report asks every one again on each run, and fails when one that answered stops."
+    },
+    {
+      "code": "SITE-07",
+      "severity": "major",
+      "title": "3 links and buttons on 3 pages have nothing for a screen reader to say",
+      "where": [
+        {
+          "url": "https://epeerless.com/about-us/",
+          "says": "1 link or button: `<a href=\"https://startertemplatecloud.com/e28/#\">`"
+        },
+        {
+          "url": "https://epeerless.com/peerless-executives-lend-a-hand-to-habitat-for-humanity/",
+          "says": "1 link or button: `<a href=\"https://epeerless.com/wp-content/uploads/2019/07/H…`"
+        },
+        {
+          "url": "https://epeerless.com/peerless-cfo-andrea-kunk-profiled-in-the-dayton-business-journal/",
+          "says": "1 link or button: `<a href=\"https://epeerless.com/wp-content/uploads/2015/12/A…`"
+        }
+      ],
+      "why": "A blind visitor hears only \"link\" or \"button\", with no idea where it goes or what it does; accessibility law (the ADA, the European Accessibility Act) counts it, and so do automated accessibility audits.",
+      "fix": "Give each one words: visible text, an aria-label, or an alt on the image inside it (an icon link to a cart: aria-label=\"Cart\")."
+    },
+    {
+      "code": "SITE-13",
+      "severity": "minor",
+      "title": "1 image on 1 page has no alt text",
+      "where": [
+        {
+          "url": "https://epeerless.com/about-us/leadership/david-murray/",
+          "says": "1 image: `<img src=\"https://epeerless.com/wp-content/uploads/2026/01/…`"
+        }
+      ],
+      "why": "A screen reader reads the file name instead, or nothing; search engines lose the words that say what the image shows.",
+      "fix": "Add alt=\"what the image shows\"; for an image that is decoration only, alt=\"\"."
+    },
+    {
+      "code": "SITE-15",
+      "severity": "minor",
+      "title": "17 pages have no main heading",
+      "where": [
+        {
+          "url": "https://epeerless.com/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/services/technology-innovation-support-sbir-sttr/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/about-us/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/services/cybersecurity/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/contracting/mas-psc/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/services/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/peerless-partnership-alliance/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/contracting/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/peerless-innovation-center/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/services/energy-conservation-management/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/about-us/history/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/contracting/gsa-oasis-idiq-contract/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/contracting/responsive-strategic-sourcing-for-services-rs3/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/about-us/environmental-sustainability/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/careers/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/contact-us/",
+          "says": "no h1 shown"
+        },
+        {
+          "url": "https://epeerless.com/services/information-technology/",
+          "says": "no h1 shown"
+        }
+      ],
+      "why": "Screen reader users jump to the h1 to learn what a page is, and search engines read it as the page's subject; none, or several competing, says neither.",
+      "fix": "Give each page one h1 naming what it shows; the site's name in the header is not it."
+    },
+    {
+      "code": "SITE-17",
+      "severity": "minor",
+      "title": "64 pages have no description for search results",
+      "where": [
+        {
+          "url": "https://epeerless.com/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-wins-task-order-worth-up-to-27-million/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/services/technology-innovation-support-sbir-sttr/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/about-us/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/latest-news/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/services/cybersecurity/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/contracting/mas-psc/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/category/news/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/services/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-partnership-alliance/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/contracting/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/category/community/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/products/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-innovation-center/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/services/energy-conservation-management/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/about-us/history/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/category/news/page/6/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/category/news/page/5/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/category/awards-recognition/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/contracting/gsa-oasis-idiq-contract/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/author/peerlesstechmarketing/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/author/peerlesstechmarketing/page/3/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/category/news/page/2/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/about-us/leadership/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/about-us/leadership/david-murray/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/about-us/leadership/bob-goodman/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/about-us/leadership/andrea-kunk/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/contracting/responsive-strategic-sourcing-for-services-rs3/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/about-us/environmental-sustainability/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/author/mwallace/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/author/mwallace/page/5/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/author/mwallace/page/3/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/author/mwallace/page/2/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/author/peerlesstechmarketing/page/2/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/category/community/page/2/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/careers/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/contact-us/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-names-new-president-of-qed-systems/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-technologies-acquires-maryland-defense-firm/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-employee-tapped-to-lead-association-of-old-crows-chapter/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-awarded-second-cogswell-award/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-technologies-ranks-among-the-best-in-it-professional-services/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-supports-the-local-stem-academy/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/goodman-named-chief-performance-officer/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/hurlburt-named-vp-of-technology-solutions-group/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-wins-110-million-u-s-air-force-contract-to-support-f-22-raptor-program-office/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-on-dayton-business-journals-top-minority-owned-companies-list/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-technologies-wins-unrestricted-general-services-administration-oasis-contract/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/kunk-named-to-2023-whos-who-in-aerospace-and-defense/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-wins-top-honor-from-department-of-defense/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-hires-mr-james-free-to-the-sr-leadership-team/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-names-new-chief-financial-officer/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-executives-lend-a-hand-to-habitat-for-humanity/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/coming-together-to-help-those-in-need/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-expands-in-huntsville-alabama/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-cfo-andrea-kunk-profiled-in-the-dayton-business-journal/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-acquires-defense-firm/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/dcsa-director-presents-top-agency-honor-to-peerless/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-technologies-is-proud-to-support-local-classrooms/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-promotes-head-of-omaha-office-to-vice-president-of-operations/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-sponsored-critical-care-training-center-opens-2/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/siertek-peerless-jv-llc-awarded-share-in-disa-17-5-billion-encore-iii-multi-award-contract/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/services/information-technology/",
+          "says": "no meta description"
+        },
+        {
+          "url": "https://epeerless.com/peerless-wins-afrl-experimental-facilities-contract/",
+          "says": "no meta description"
+        }
+      ],
+      "why": "Search results show the description under the title; without one, the search engine picks a line of the page, often the menu or a cookie notice.",
+      "fix": "Give each page a <meta name=\"description\"> of a sentence or two saying what it offers."
+    },
+    {
+      "code": "SITE-29",
+      "severity": "minor",
+      "title": "The site has no security.txt: someone who finds a hole has no way to report it",
+      "where": [
+        {
+          "url": "https://epeerless.com/.well-known/security.txt",
+          "says": "answered 404"
+        }
+      ],
+      "why": "Researchers who find a security problem look for /.well-known/security.txt to know whom to tell (RFC 9116); without it they may not report it, or report it publicly.",
+      "fix": "Publish /.well-known/security.txt with a Contact line (an email address or a form) and an Expires line."
+    }
+  ],
+  "siteControls": [
+    {
+      "kind": "button",
+      "words": [
+        "Child menu of Who We Are"
+      ],
+      "region": "header",
+      "xpath": "//button[@aria-label='Child menu of Who We Are']",
+      "stability": "Strong",
+      "pages": 64,
+      "seenOn": "https://epeerless.com/"
+    },
+    {
+      "kind": "button",
+      "words": [
+        "Child menu of What We Do"
+      ],
+      "region": "header",
+      "xpath": "//button[@aria-label='Child menu of What We Do']",
+      "stability": "Strong",
+      "pages": 64,
+      "seenOn": "https://epeerless.com/"
+    },
+    {
+      "kind": "button",
+      "words": [
+        "Child menu of Contracting"
+      ],
+      "region": "header",
+      "xpath": "//button[@aria-label='Child menu of Contracting']",
+      "stability": "Strong",
+      "pages": 64,
+      "seenOn": "https://epeerless.com/"
+    }
+  ]
+}

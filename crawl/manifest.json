@@ -1,0 +1,40 @@
+{
+  "tool": "suite-builder",
+  "version": "1.39.0",
+  "build": {
+    "commit": "0f1b1907f56c6cef6c3a821cacb412509eb52564",
+    "branch": "main"
+  },
+  "framework": "playwright",
+  "generatedAt": "2026-11-06T15:32:58.742Z",
+  "command": "suite-builder build https://epeerless.com/",
+  "templates": "crawl/epeerless.com.templates.json",
+  "crawl": "crawl/epeerless.com.crawl.json",
+  "crawlFileSaved": "2026-11-06T15:32:57.417Z",
+  "pages": {
+    "ship": "all",
+    "crawl": "98a977b99a4a859f",
+    "signedIn": false,
+    "roles": []
+  },
+  "accounts": [
+    {
+      "role": "user",
+      "file": "secrets/user.login",
+      "environment": [
+        "SUITE_USER_USERNAME",
+        "SUITE_USER_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/user.login"
+    },
+    {
+      "role": "admin",
+      "file": "secrets/admin.login",
+      "environment": [
+        "SUITE_ADMIN_USERNAME",
+        "SUITE_ADMIN_PASSWORD"
+      ],
+      "docked": "<Suite Builder's secrets folder, DOCK.md's last line>/<site>/admin.login"
+    }
+  ]
+}
